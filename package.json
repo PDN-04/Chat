@@ -1,0 +1,19 @@
+{
+  "name": "Chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/main.js",
+  "scripts": {
+    "start": "nodemon server/main.js"
+  },
+  "author": "Pablo Domínguez Navarro",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
