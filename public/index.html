@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <title>Chat</title>
     <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="main.js"></script>
 </head>
 
 <body>
     <h1>Chat</h1>
-    <form onsubmit="return anadirMensaje(this)">
-        <input type="text" id="username" placeholder="Usuario">
+    <form>
         <input type="text" id="texto" placeholder="Cuéntanos algo...">
         <input type="submit" value="Enviar">
     </form>
-    <div id="mensajes"></div>
+    <div id="mensajes">
+    </div>
 </body>
 
 </html>

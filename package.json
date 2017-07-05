@@ -1,13 +1,13 @@
 {
   "name": "Chat",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.2.0",
+  "description": "Chat realizado con Node.js, Express y Socket.io",
   "main": "server/main.js",
   "scripts": {
     "start": "nodemon server/main.js"
   },
-  "author": "Pablo Domínguez Navarro",
   "keywords": [],
+  "author": "Pablo Domínguez Navarro",
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.3",
